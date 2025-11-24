@@ -6,7 +6,7 @@ A reinforcement learning agent that plays the classic Snake game with real-time 
 
 This project implements a Snake game with an AI agent trained using reinforcement learning. The AI has been trained to make optimal decisions about which direction to move the snake to maximize its score while avoiding collisions with walls or its own body.
 
-The system uses a pre-trained model (`model\_1720984099\_77.pth`) that has been trained to play the game efficiently.
+The system uses a pre-trained model (`model_1720984099_77.pth`) that has been trained to play the game efficiently.
 
 ## Key Features
 
@@ -42,8 +42,8 @@ The agent learns by:
 2. Install Pygame:
 
 ```bash
-   pip install pygame
-   ```
+pip install pygame
+```
 
 ### Running the Game
 
@@ -61,7 +61,7 @@ This will launch the Snake game with the pre-trained AI agent. The game will aut
 
 ## Model Information
 
-The current model used is: `model\_1720984099\_77.pth`
+The current model used is: `model_1720984099_77.pth`
 
 This model was trained to achieve a best score of \[insert best score here] in the game environment with the following parameters:
 
@@ -74,7 +74,7 @@ This model was trained to achieve a best score of \[insert best score here] in t
 You can customize the game parameters in the `main.py` file:
 
 ```python
-game = SnakeGame(bloc\_size=10, width\_bloc=40, height\_blocs=40)
+game = SnakeGame(bloc_size=10, width_bloc=40, height_blocs=40)
 ```
 
 Change the values to adjust the game size and difficulty.
