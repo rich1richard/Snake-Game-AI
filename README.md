@@ -63,7 +63,7 @@ This will launch the Snake game with the pre-trained AI agent. The game will aut
 
 The current model used is: `model_1720984099_77.pth`
 
-This model was trained to achieve a best score of \[insert best score here] in the game environment with the following parameters:
+This model was trained to achieve a best score of `77` in the game environment with the following parameters:
 
 * Block size: 10
 * Game width: 40
